@@ -1,0 +1,31 @@
+/* ***** ----------------------------------------------- ***** **
+** ***** Setup/Base
+** ***** ----------------------------------------------- ***** */
+
+:root {
+  font-size: 62.5%;
+}
+
+*::selection {
+  @apply u-bg-teal;
+}
+
+html {
+  -webkit-overflow-scrolling: touch;
+}
+
+body {
+  @apply u-flex u-flex-col u-h-full u-text-body u-text-black-text-2;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -ms-text-size-adjust: 100%;
+}
+
+a {
+  @apply u-text-current hover:u-text-teal active:u-text-teal u-no-underline
+    u-transition-colors u-duration-slow;
+}
+
+svg {
+  @apply u-inline-block u-fill-current;
+}

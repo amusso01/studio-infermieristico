@@ -1,0 +1,18 @@
+.o-hour-footer{
+  @apply  u-font-heading u-font-medium u-tracking-wider;
+}
+.o-nav-footer-menu{
+  @apply u-flex u-space-y-10 u-flex-col;
+
+  .o-nav-menuListItem{
+    @apply u-ml-0 u-text-white 
+  }
+
+  .o-nav-menuItem{
+    @apply u-text-current u-text-14 u-font-medium u-font-heading u-tracking-widest u-capitalize;
+
+    &:hover{
+      @apply u-text-teal;
+    }
+  }
+}

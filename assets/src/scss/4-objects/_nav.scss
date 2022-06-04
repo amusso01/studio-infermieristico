@@ -1,0 +1,78 @@
+/* ***** ----------------------------------------------- ***** **
+** ***** Objects/Nav Styles
+** ***** ----------------------------------------------- ***** */
+
+.o-nav {
+  $this: &;
+  // @apply u-hidden md:u-block;
+
+  &-s-open{
+
+    .o-nav-menu{
+      @apply u-left-0 u-z-header;
+
+
+      &:after{
+        @apply u-left-2/3;
+      }
+  
+
+    }
+
+
+  }
+
+  &-logo{
+    z-index: 501;
+  }
+
+  &-menu {
+    transition-property: left;
+    @apply u-m-0 u-flex u-ease-in-out u-duration-slow u-flex-col u-fixed u-w-2/3 u-h-screen u-z-10 u-bg-white u-top-0 -u-left-2/3
+            u-pt-150 u-pl-30;
+
+
+
+    &:after{
+      @apply u-w-2/3 -u-left-2/3 u-ease-in-out u-duration-slow;
+      content: '';
+      position: fixed;
+      height: 100vh;
+      background-color: #00CACD;
+      opacity: .15;
+      top: 0;
+      z-index: 9;
+    }
+
+    @screen md{
+      @apply u-block  u-static u-w-auto u-h-auto u-bg-transparent u-pt-0 u-pl-0;
+
+
+      &:after{
+        @apply u-hidden;
+      }
+    }
+  }
+
+  &-menuListItem {
+    @apply u-inline-block u-mb-15 md:u-ml-10 lg:u-ml-35 ;
+
+    &:first-child {
+      @apply md:u-ml-0 md:u-mb-0;
+    }
+
+    &--current {
+      #{$this}-menuItem {
+        @apply u-text-teal;
+      }
+    }
+  }
+
+  &-menuItem {
+    @apply u-inline-block u-font-heading  u-text-16 md:u-text-14 u-uppercase u-text-black-text-1 u-tracking-widest u-space-x-5 u-font-semibold;
+  }
+
+  &-subMenu {
+
+  }
+}

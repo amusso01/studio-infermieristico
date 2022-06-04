@@ -1,0 +1,18 @@
+/* ***** ----------------------------------------------- ***** **
+** ***** Objects/Buttons Styles
+** ***** ----------------------------------------------- ***** */
+@layer components{
+  .o-button {
+    @apply u-bg-teal u-text-white u-leading-loose u-inline-flex u-justify-center u-align-middle u-py-10 u-min-w-[207px]
+      u-transition-colors u-duration-slow hover:u-bg-white u-font-semibold hover:u-text-teal
+      active:u-bg-teal-light active:u-text-black-text-2 ;
+      &-big{
+
+      }
+      &-white{
+        @apply u-bg-white u-text-black-text-2  hover:u-bg-teal hover:u-text-white
+      }
+
+  }
+
+}
