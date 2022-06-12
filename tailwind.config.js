@@ -32,6 +32,7 @@ module.exports = {
       },
       'grey-light': {
         'a': '#aaa',
+        'b': '#F5F5F5',
         'c': '#ccc',
       },
       teal: '#00CACD',
@@ -64,8 +65,10 @@ module.exports = {
       '24': '2.4rem',
       '28': '2.8rem',
       '30': '3rem',
+      '32': '3.2rem',
       '36': '3.6rem',
       '38': '3.8rem',
+      '40': '4rem',
       '45': '4.5rem',
       '48': '4.8rem',
       '50': '5rem',
@@ -75,6 +78,7 @@ module.exports = {
       none: '1',
       tight: '1.2',
       normal: '1.4',
+      medium: '1.6',
       loose: '1.8',
     },
     letterSpacing: {
@@ -88,6 +92,7 @@ module.exports = {
     },
     spacing: {
       0: '0',
+      3: '0.3rem',
       5: '0.5rem',
       8: '0.8rem',
       10: '1rem',
@@ -179,6 +184,12 @@ module.exports = {
       animationSpeed: 1,
     },
     gridTemplateColumns: {
+      none: 'none',
+      1: 'repeat(1, minmax(0, 1fr))',
+      2: 'repeat(2, minmax(0, 1fr))',
+      3: 'repeat(3, minmax(0, 1fr))',
+      4: 'repeat(4, minmax(0, 1fr))',
+      5: 'repeat(5, minmax(0, 1fr))',
       // Complex site-specific column configuration
       'footer': '5fr 3fr 4fr',
     },

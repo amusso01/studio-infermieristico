@@ -80,6 +80,9 @@
 
 @import '5-components/footer';
 @import '5-components/page-hero';
+@import '5-components/accordion';
+@import '5-components/cards';
+@import '5-components/map';
 
 
 /* ***** Misc
@@ -87,3 +90,8 @@
 
 @import '6-misc/hacks';
 @import '6-misc/print';
+
+
+/* ***** Pages
+** ***** ----------------------------------------------- ***** */
+@import '7-pages/servizi'

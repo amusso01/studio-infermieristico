@@ -18,13 +18,17 @@
   }
 
   // Display SVG
-  function bml_the_svg($filename, $viewbox = '0 0 50 50', $classes = '') {
+  function bml_the_svg($filename, $viewbox = '0 0 50 50', $classes = '', $return= true) {
 
     $markup  = '<svg viewBox="' . $viewbox . '" aria-hidden="true"' . ( $classes != '' ? ' class="' . $classes . '"' : '' ) . '>';
     $markup .= '<use xlink:href="' . get_template_directory_uri() . '/assets/dist/svgs/sprite.svg#' . $filename .'"></use>';
     $markup .= '</svg>';
 
-    echo $markup;
+    if($return){
+      echo $markup;
+    }else{
+      return $markup;
+    }
   }
 
   // Print the image's srcset for lazyload

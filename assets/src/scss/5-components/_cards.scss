@@ -1,0 +1,22 @@
+.c-cards{
+  @apply u-relative u-grid u-gap-x-15 u-gap-y-40 u-grid-cols-2 u-justify-items-center xs:u-gap-x-60 sm:u-gap-y-150 sm:u-grid-cols-3 lg:u-grid-cols-4 xxl:u-grid-cols-5;
+}
+.c-card__text{
+  @apply u-px-10 u-py-15 u-bg-teal-light u-rounded-b-3 u-flex u-flex-col u-justify-between;
+  
+  height: calc(100% - 288px);
+
+  &-blue{
+    background-color: rgba(61, 107, 175, 0.85);
+
+    p{
+      @apply u-text-white;
+      line-height: 21px;
+
+    }
+
+  }
+
+}
+
+

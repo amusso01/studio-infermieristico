@@ -38,10 +38,12 @@
       content: '';
       position: fixed;
       height: 100vh;
-      background-color: #00CACD;
-      opacity: .15;
+      background-color: #3D6BAF;
+      opacity: .8;
       top: 0;
       z-index: 9;
+      -webkit-backdrop-filter: blur(10px);
+      backdrop-filter: blur(10px);
     }
 
     @screen md{

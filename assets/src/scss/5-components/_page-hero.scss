@@ -10,6 +10,12 @@
     background: linear-gradient(90.44deg, #232C33 6.29%, rgba(13, 145, 149, 0.361702) 64.73%, rgba(0, 202, 205, 0.04) 99.39%), url(.jpg);
   }
 
+  &__collab{
+    &::after{
+      background: linear-gradient(90deg, #232C33 6.77%, rgba(55, 92, 147, 0.51) 73.96%, rgba(61, 111, 175, 0.13) 100%), url(.jpg)
+    }
+  }
+
 
   .l-container{
     @apply u-relative u-z-1;
@@ -17,7 +23,7 @@
   }
 
   h1{
-    @apply u-text-white;
+    @apply u-text-white u-uppercase md:u-max-w-3xl;
 
   }
 }

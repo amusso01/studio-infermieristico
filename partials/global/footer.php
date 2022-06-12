@@ -21,10 +21,10 @@
         <div class="c-footer-left__bottom">
           <h3 class="o-h-footer">CONTATTI</h3>
           <ul class=" u-space-y-10">
-            <li class="u-text-white u-text-14 u-font-heading u-font-medium u-tracking-wider" ><span><?php bml_the_svg('icon-phone', '0 0 17 17', 'u-w-17 u-h-17 u-inline-block u-mr-25 ') ?></span><a href="tel:+39 0187 1864906">+39 0187 1864906</a></li>
-            <li class="u-text-white u-text-14 u-font-heading u-font-medium u-tracking-wider" ><span><?php bml_the_svg('icon-phone', '0 0 17 17', 'u-w-17 u-h-17 u-inline-block u-mr-25 ') ?></span><a href="tel:+39 366 4239850">+39 366 4239850</a></li>
-            <li class="u-text-white u-text-14 u-font-heading u-font-medium u-tracking-wider" ><span><?php bml_the_svg('icon-map', '0 0 17 17', 'u-w-17 u-h-17 u-inline-block u-mr-25 ') ?></span><a href="https://goo.gl/maps/VpM9CcBTNv3dtviz5" rel=”noreferrer noopener”  target="_blank" >Via Aurelia 160 - Castelnuovo Magra</a></li>
-            <li class="u-text-white u-text-14 u-font-heading u-font-medium u-tracking-wider" ><span><?php bml_the_svg('icon-email', '0 0 17 17', 'u-w-17 u-h-17 u-inline-block u-mr-25 ') ?></span><a href="mailto:monsignorifrancesco@hotmail.it" >monsignorifrancesco@hotmail.it</a></li>
+            <li class="c-contact-footer" ><span><?php bml_the_svg('icon-phone', '0 0 17 17', 'u-w-17 u-h-17 u-inline-block u-mr-25 ') ?></span><a href="tel:+39 0187 1864906">+39 0187 1864906</a></li>
+            <li class="c-contact-footer" ><span><?php bml_the_svg('icon-phone', '0 0 17 17', 'u-w-17 u-h-17 u-inline-block u-mr-25 ') ?></span><a href="tel:+39 366 4239850">+39 366 4239850</a></li>
+            <li class="c-contact-footer" ><span><?php bml_the_svg('icon-map', '0 0 17 17', 'u-w-17 u-h-17 u-inline-block u-mr-25 ') ?></span><a href="https://goo.gl/maps/VpM9CcBTNv3dtviz5" rel=”noreferrer noopener”  target="_blank" >Via Aurelia 160 - Castelnuovo Magra</a></li>
+            <li class="c-contact-footer" ><span><?php bml_the_svg('icon-email', '0 0 17 17', 'u-w-17 u-h-17 u-inline-block u-mr-25 ') ?></span><a href="mailto:monsignorifrancesco@hotmail.it" >monsignorifrancesco@hotmail.it</a></li>
           </ul>
         </div>
       </div>
@@ -33,7 +33,7 @@
           <p class="u-text-13 u-mb-15 u-leading-loose">Scarica la modulistica per le visite a domicilio e risparmia tempo</p>
           <a href="#" class="o-button o-button-white u-relative">MODULISTICA <span> <i><?php bml_the_svg('doc', '0 0 21 21', 'u-w-20 u-h-20 u-inline-block u-m-l-10 u-absolute o-svg-color u-top-1/2 u-right-20 -u-translate-y-1/2') ?></i> </span></a> 
        </div>
-        <div class="c-footer-center__bottom">
+        <div class="c-footer-center__bottom u-h-full u-flex u-flex-col u-justify-end">
           <h3 class="o-h-footer">LINK UTILI</h3>
           <nav class="o-nav-footer">
             <?php bml_the_menu('footer_menu' , "o-nav-footer-menu") ?>
