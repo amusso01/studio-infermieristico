@@ -1,34 +1,40 @@
 <?php get_header(); ?>
 
 <div data-router-wrapper>
-  <div class="l-container u-grid u-gap-60 md:u-grid-cols-3 md:u-gap-80" data-router-view="index">
-    <main class="md:u-col-span-2" role="main" data-s2r="group">
-      <header>
-        <h1 class="u-h1" data-s2r-el="block-fade-up">Latest Posts</h1>
-      </header>
+  <div  data-router-view ="index">
+  
+    <?php get_template_part( 'partials/global/hero-index' ); ?>
 
-      <div class="u-mt-20 md:u-mt-40" data-s2r-el="stagger-fade-up" data-s2r-delay="0.2">
+    <main class="p-index-main" role="main" data-s2r="group">
+
+      <div class=" u-mt-60 u-mb-90 md:u-mt-130 md:u-mb-220" data-s2r-el="stagger-fade-up" data-s2r-delay="0.2">
 
         <?php if ( have_posts() ) : ?>
 
-          <?php while ( have_posts() ) : the_post(); ?>
+          <div class="l-container u-grid u-gap-40 u-grid-cols-3 md:u-grid-cols-3 md:u-gap-80">
+            <?php while ( have_posts() ) : the_post(); ?>
+
 
             <?php get_template_part( 'partials/news/preview' ); ?>
 
-          <?php endwhile; ?>
+            
+            <?php endwhile; ?>
+          </div>
 
-          <?php get_template_part( 'partials/global/pagination-archive' ); ?>
+          <div class="l-container">
+            <?php get_template_part( 'partials/global/pagination-archive' ); ?>
+          </div>
 
         <?php else : ?>
 
-          <?php get_template_part( 'partials/global/not_found' ); ?>
+          <div class="l-container">
+            <?php get_template_part( 'partials/global/not_found' ); ?>
+          </div>
 
         <?php endif; ?>
 
       </div>
     </main>
-
-    <?php get_sidebar(); ?>
 
   </div>
 </div>

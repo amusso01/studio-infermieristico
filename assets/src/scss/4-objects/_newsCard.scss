@@ -1,0 +1,22 @@
+.o-news-card{
+  figure{
+  
+    overflow: hidden;
+
+    &:hover{
+
+      img{
+        transform: scale(1.1);
+      }
+
+    }
+
+    img{
+      @apply u-transition-transform;
+
+      transition-duration: 1s;
+
+    }
+
+  }
+}

@@ -22,8 +22,8 @@ $collaboratori = get_field('collaboratori') ;
           <div class=" c-card__text c-card__text-blue">
             <p class="u-text-15 u-mb-5 u-font-semibold"><?php echo $team['collaboratore']['nome'] ?></p>
             <p class=" u-text-14 u-mb-8"><?php echo $team['collaboratore']['ruolo'] ?></p>
-            <p class=" u-text-14 u-mb-5 u-font-medium"> <span class=' u-hidden sm:u-inline-block'><?php bml_the_svg('icon-phone-small', '0 0 11 11', ' u-h-15 u-inline-block u-mr-15 ') ?></span> <a href="tel:<?php echo $team['collaboratore']['numero_di_telefono'] ?> "><?php echo $team['collaboratore']['numero_di_telefono'] ?></a></p>
-            <p class=" u-text-14 u-font-medium"> <span class=' u-hidden sm:u-inline-block'><?php bml_the_svg('icon-email-small', '0 0 11 11', ' u-h-17 u-inline-block u-mr-15') ?></span><a href="mailto:<?php echo $team['collaboratore']['email'] ?>"><?php echo $team['collaboratore']['email'] ?></a></p>
+            <p class=" u-text-14 u-mb-5 u-font-medium"> <span class=' u-hidden md:u-inline-block'><?php bml_the_svg('icon-phone-small', '0 0 11 11', ' u-h-15 u-inline-block u-mr-15 ') ?></span> <a href="tel:<?php echo $team['collaboratore']['numero_di_telefono'] ?> "><?php echo $team['collaboratore']['numero_di_telefono'] ?></a></p>
+            <p class=" u-text-14 u-font-medium"> <span class=" u-hidden md:u-inline-block"><?php bml_the_svg('icon-email-small', '0 0 11 11', ' u-h-17 u-inline-block u-mr-15') ?></span><a href="mailto:<?php echo $team['collaboratore']['email'] ?>"><?php echo $team['collaboratore']['email'] ?></a></p>
           </div>
         </div>
       <?php endforeach; ?>
