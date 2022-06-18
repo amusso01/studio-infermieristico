@@ -3,14 +3,51 @@
 ** ***** ----------------------------------------------- ***** */
 @layer components{
   .o-button {
-    @apply u-bg-teal u-text-white u-leading-loose u-inline-flex u-justify-center u-align-middle u-py-10 u-min-w-[207px]
-      u-transition-colors u-duration-slow hover:u-bg-white u-font-semibold hover:u-text-teal
-      active:u-bg-teal-light active:u-text-black-text-2 ;
+    @apply u-bg-teal u-text-white u-font-heading u-font-semibold u-text-15 u-leading-loose u-inline-flex u-justify-center u-align-middle u-items-center u-py-10 u-min-w-[207px]
+      u-transition-colors u-duration-slow u-relative hover:u-text-white;
+
+
+    &-icon{
+
+      span{
+        @apply   u-transition-transform u-duration-slow ;
+      }
+
+      &:hover{
+
+        span{
+          display: inline-block;
+          position: relative;
+          transform: translateX(10px);
+        }
+
+      }
+
+    }
+
       &-big{
 
       }
       &-white{
-        @apply u-bg-white u-text-black-text-2  hover:u-bg-teal hover:u-text-white
+        @apply u-bg-white u-text-black-text-2 u-relative  hover:u-bg-teal hover:u-text-white;
+         
+
+        svg{
+          @apply u-duration-slow u-w-20 u-h-20 u-inline-block u-ml-10  u-absolute u-top-1/2 u-right-20 -u-translate-y-1/2 ;
+          path{
+            @apply u-duration-slow;
+          }
+        }
+
+        &:hover{
+          span{
+            svg{
+              path{
+                fill:white;
+              }
+            }
+          }
+        }
       }
 
   }

@@ -1,17 +1,20 @@
 <?php get_header(); ?>
 
 <div data-router-wrapper>
-  <div class="l-container u-grid u-gap-60 md:u-grid-cols-3 md:u-gap-80" data-router-view="single">
-    <main class="md:u-col-span-2" role="main">
+  <div data-router-view="single">
 
-      <?php while ( have_posts() ) : the_post(); ?>
+    <?php get_template_part( 'partials/global/hero-single' ); ?>
+    
+    <main class="p-single-main" role="main">
+      <div class="l-container u-grid u-grid-cols-1 u-gap-x-30 u-gap-y-50 u-mt-60 u-mb-90 md:u-mt-130 md:u-mb-220 md:u-grid-cols-10 "  data-s2r="single" data-s2r-type="stagger-fade-up">
+        <?php while ( have_posts() ) : the_post(); ?>
 
-        <?php get_template_part( 'partials/news/single' ); ?>
+          <?php get_template_part( 'partials/news/single' ); ?>
 
-        <?php get_template_part( 'partials/global/pagination-single' ); ?>
 
-      <?php endwhile; ?>
-
+        <?php endwhile; ?>
+      </div>
+      
     </main>
 
     <?php get_sidebar(); ?>

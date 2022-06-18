@@ -58,6 +58,7 @@ module.exports = {
       '12': '1.2rem',
       '13': '1.3rem',
       '14': '1.4rem',
+      '15': '1.5rem',
       '16': '1.6rem',
       '17': '1.7rem',
       '18': '1.8rem',
@@ -96,6 +97,7 @@ module.exports = {
       3: '0.3rem',
       5: '0.5rem',
       8: '0.8rem',
+      12: '1.2rem',
       10: '1rem',
       15: '1.5rem',
       17: '1.7rem',
@@ -191,6 +193,7 @@ module.exports = {
       3: 'repeat(3, minmax(0, 1fr))',
       4: 'repeat(4, minmax(0, 1fr))',
       5: 'repeat(5, minmax(0, 1fr))',
+      10: 'repeat(10, minmax(0, 1fr))',
       // Complex site-specific column configuration
       'footer': '5fr 3fr 4fr',
     },

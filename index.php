@@ -11,7 +11,7 @@
 
         <?php if ( have_posts() ) : ?>
 
-          <div class="l-container u-grid u-gap-40 u-grid-cols-3 md:u-grid-cols-3 md:u-gap-80">
+          <div class="l-container u-grid u-gap-40 u-grid-cols-1 sm:u-grid-cols-2 lg:u-grid-cols-3 md:u-gap-80">
             <?php while ( have_posts() ) : the_post(); ?>
 
 

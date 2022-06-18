@@ -47,91 +47,91 @@
     @apply u-font-body u-leading-normal u-text-16 ;
   }
 
-  // .u-rich-text {
-  //   > * {
-  //     &:first-child {
-  //       @apply u-mt-0;
-  //     }
+  .u-rich-text {
+    > * {
+      &:first-child {
+        @apply u-mt-0;
+      }
 
-  //     &:last-child {
-  //       @apply u-mb-0;
-  //     }
-  //   }
+      &:last-child {
+        @apply u-mb-0;
+      }
+    }
 
-  //   h1,
-  //   h2,
-  //   h3,
-  //   h4,
-  //   h5,
-  //   h6 {
-  //     @apply u-mb-10;
-  //   }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      @apply u-mb-10;
+    }
 
-  //   h1 {
-  //     @apply u-text-36 sm:u-text-48;
-  //   }
+    h1 {
+      @apply u-text-36 sm:u-text-48;
+    }
 
-  //   h2 {
-  //     @apply u-text-30 sm:u-text-36;
-  //   }
+    h2 {
+      @apply u-text-30 sm:u-text-36;
+    }
 
-  //   h3 {
-  //     @apply u-text-24 sm:u-text-28;
-  //   }
+    h3 {
+      @apply u-text-24 sm:u-text-28;
+    }
 
-  //   h4 {
-  //     @apply u-text-18 sm:u-text-24;
-  //   }
+    h4 {
+      @apply u-text-18 sm:u-text-24;
+    }
 
-  //   * + h1,
-  //   * + h2,
-  //   * + h3,
-  //   * + h4,
-  //   * + h5,
-  //   * + h6 {
-  //     @apply u-mt-40 sm:u-mt-50;
-  //   }
+    * + h1,
+    * + h2,
+    * + h3,
+    * + h4,
+    * + h5,
+    * + h6 {
+      @apply u-mt-40 sm:u-mt-50;
+    }
 
-  //   a {
-  //     @include text-underline;
-  //   }
+    a {
+      @include text-underline;
+    }
 
-  //   p {
-  //     @apply u-leading-loose u-my-20 sm:u-my-30;
-  //   }
+    p {
+      @apply u-leading-loose u-my-20 sm:u-my-30;
+    }
 
-  //   ul,
-  //   ol {
-  //     @apply u-leading-loose u-my-20 u-mr-0 u-ml-30 sm:u-my-30 sm:u-ml-35;
+    ul,
+    ol {
+      @apply u-leading-loose u-my-20 u-mr-0 u-ml-30 sm:u-my-30 sm:u-ml-35;
 
-  //     ul,
-  //     ol {
-  //       @apply u-mt-5 u-mr-0 u-mb-5 u-ml-35;
-  //     }
-  //   }
+      ul,
+      ol {
+        @apply u-mt-5 u-mr-0 u-mb-5 u-ml-35;
+      }
+    }
 
-  //   ul {
-  //     @apply u-list-disc;
+    ul {
+      @apply u-list-disc;
 
-  //     &.wp-block-gallery {
-  //       @apply u-ml-0;
-  //     }
-  //   }
+      &.wp-block-gallery {
+        @apply u-ml-0;
+      }
+    }
 
-  //   ol {
-  //     @apply u-list-decimal;
-  //   }
+    ol {
+      @apply u-list-decimal;
+    }
 
-  //   blockquote {
-  //     @apply u-border-l-2 u-my-30 u-mx-20 u-pl-30;
-  //   }
+    blockquote {
+      @apply u-border-l-2 u-my-30 u-mx-20 u-pl-30;
+    }
 
-  //   .o-button {
-  //     @apply u-no-underline;
-  //   }
+    .o-button {
+      @apply u-no-underline;
+    }
 
-  //   .emoji {
-  //     @apply u-inline-block u-w-20;
-  //   }
-  // }
+    .emoji {
+      @apply u-inline-block u-w-20;
+    }
+  }
 }
