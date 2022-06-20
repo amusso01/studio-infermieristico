@@ -20,3 +20,12 @@
 }
 
 
+// CARDS NEWS HOME
+
+.c-card-news-home{
+
+  @apply  u-flex u-flex-col u-justify-between u-py-30 u-px-25;
+
+  background: #FFFFFF;
+  box-shadow: 0px 3px 4px 1px rgba(54, 56, 57, 0.25);
+}

@@ -1,8 +1,8 @@
-<header class="u-bg-white u-py-25" role="banner">
+<header class="u-bg-white u-py-25  u-left-0 u-w-full u-z-header u-fixed u-top-0 u-transition-all u-duration-slow"  :class="{ ' u-shadow-md u-py-15' : scrollTop , '-u-top-110' : navHide }" role="banner">
   <div class="l-container u-flex u-items-center u-justify-between">
     <h1 class="o-nav-logo">
       <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="xs:u-flex xs:u-items-center" aria-label="<?php bloginfo(); ?>">
-        <figure class="u-relative u-w-[300px] u-h-[60px]">
+        <figure class="u-relative u-w-[300px] u-h-[60px] u-transition-all u-duration-normal" :class="{ 'u-w-[267px] u-h-[47px]' : scrollTop  }" >
           <img src="<?php echo get_template_directory_uri(  ).'/assets/dist/images/logo.jpg' ?>" alt="Studio Infermieristico logo" class="u-absolute u-object-cover u-top-0 u-left-0 u-w-full u-h-full">
         </figure>
         <?php ?>

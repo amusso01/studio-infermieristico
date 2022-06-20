@@ -10,6 +10,7 @@ import { init as globalInit } from './components/global.js';
 import { init as richTextInit } from './components/richText.js';
 import Scroll2Reveal from './vendors/Scroll2Reveal.js';
 
+
 // Init on first load
 globalInit();
 richTextInit();

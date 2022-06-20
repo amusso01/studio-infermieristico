@@ -131,7 +131,7 @@ body { /* stylelint-disable-line no-duplicate-selectors */
 
     .message,
     #login_error { /* stylelint-disable-line */
-      @apply u-bg-grey-dark-3 u-shadow-none u-text-14 u-leading-normal;
+      @apply u-bg-grey-dark-3 u-shadow-none u-text-white u-text-14 u-leading-normal;
     }
 
     .message {

@@ -27,3 +27,59 @@
 
   }
 }
+
+// HOME
+.o-hero-home{
+  @apply u-relative u-z-1 u-bg-no-repeat u-bg-cover;
+
+  &:after{
+
+    @apply u-w-screen u-h-full u-top-0 u-left-0 u-absolute u-z-0;
+
+    content: '';
+    background: linear-gradient(90.14deg, #232C33 1.49%, rgba(35, 44, 51, 0.5) 55.75%, rgba(35, 44, 51, 0) 97.94%), url(.jpg);
+  }
+
+
+
+  .l-container{
+
+    @apply u-relative u-z-1;
+
+
+  }
+
+  .o-home-hero-text{
+
+    @apply u-text-white u-uppercase md:u-max-w-4xl;
+
+    p{
+      
+      @apply u-font-semibold u-text-50 u-tracking-widest u-font-heading ;
+
+      line-height: 68px;
+
+      &:nth-child(2){
+
+       @apply u-text-teal u-text-60 u-font-bold;
+
+      }
+
+    &:last-of-type{
+
+      @apply u-mb-40;
+
+    }
+
+
+    }
+
+    .o-button{
+
+      @apply u-py-15;
+
+    }
+
+  }
+
+}

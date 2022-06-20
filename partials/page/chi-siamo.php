@@ -2,7 +2,7 @@
 $rows = get_field('imagine_e_testo');
 ?>
 
-<section class="p-chi-siamo u-mt-60 u-mb-90 md:u-mt-130 md:u-mb-220" >
+<section class="p-chi-siamo__content u-mt-60 u-mb-90 md:u-mt-130 md:u-mb-220" >
 
   <?php if ( $rows ) : ?>
     <?php foreach($rows as $index => $row) : ?>
