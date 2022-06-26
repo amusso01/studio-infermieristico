@@ -7,7 +7,7 @@ $rows = get_field('imagine_e_testo');
   <?php if ( $rows ) : ?>
     <?php foreach($rows as $index => $row) : ?>
       <div class="u-flex u-flex-col-reverse u-gap-y-70 u-mb-160 md:u-mb-150 md:u-gap-x-70 md:u-flex-row lg:u-gap-x-130 <?php echo $index === 1 ? 'md:u-flex-row-reverse u-mb-0 md:u-mb-0' : ''?>" >
-        <figure  class=" u-self-center u-relative u-min-w-[466px] u-w-[466px] u-h-[580px]" data-s2r="single" data-s2r-type="block-fade-up">
+        <figure  class=" u-self-center u-relative u-w-[336px] u-h-[480px] sm:u-min-w-[466px] sm:u-w-[466px] sm:u-h-[580px]" data-s2r="single" data-s2r-type="block-fade-up">
           <img data-srcset="<?php echo bml_the_image_srcset($row['imagine']) ?>" data-sizes="auto" alt="Francesco Monsignori" class="lazyload i-cover">
         </figure>
         <div class="l-image-text" data-s2r="single" data-s2r-type="block-fade-in" >

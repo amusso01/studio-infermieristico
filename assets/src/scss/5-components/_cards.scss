@@ -1,6 +1,16 @@
 .c-cards{
   @apply u-relative u-grid u-gap-x-15 u-gap-y-40 u-grid-cols-2 u-justify-items-center xs:u-gap-x-60 sm:u-gap-y-150 sm:u-grid-cols-3 lg:u-grid-cols-4 xxl:u-grid-cols-5;
 }
+
+.c-cards.c-cards-collab{
+  @apply u-grid-cols-1 u-gap-y-100 u-relative u-grid u-gap-x-15 u-justify-items-center xs:u-gap-x-60 xs:u-grid-cols-1 sm:u-gap-y-150 sm:u-grid-cols-2  md:u-grid-cols-3 xxl:u-grid-cols-4;
+
+
+  .c-card figure{
+    @apply  u-h-[330px];
+  }
+}
+
 .c-card__text{
   @apply u-px-10 u-py-15 u-bg-teal-light u-rounded-b-3 u-flex u-flex-col u-justify-between;
   

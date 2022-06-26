@@ -1,6 +1,6 @@
 <section class="p-home__sedi u-mb-100 md:u-mt-130 md:u-mb-200" >
 
-  <h2 class="u-text-45 u-tracking-wider u-mb-50 md:u-mb-80"  data-s2r="single" data-s2r-type="block-fade-up">Le Nostre Sedi</h2>
+  <h2 class=" u-text-38 sm:u-text-45 u-tracking-wider u-mb-50 md:u-mb-80"  data-s2r="single" data-s2r-type="block-fade-up">Le Nostre Sedi</h2>
 
   <div class="u-grid sm:u-grid-cols-2 u-gap-y-40 u-gap-x-65"  data-s2r="single" data-s2r-type="block-fade-in">
 

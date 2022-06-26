@@ -42,8 +42,7 @@
 x-data="{ scrollTop: false, scrollOneThird : 750, navHide : false }"  
 x-init="window.pageYOffset > 150 ? scrollTop = true : scrollTop = false; "
 @scroll.window="window.pageYOffset > 150 ? scrollTop = true : scrollTop = false; 
-                window.pageYOffset > scrollOneThird ? navHide = true : navHide = false;
-                ">
+                window.pageYOffset > scrollOneThird ? navHide = true : navHide = false;">
 
   <?php get_template_part( 'partials/global/header' ); ?>
 

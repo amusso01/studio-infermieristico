@@ -37,7 +37,8 @@
     @apply u-w-screen u-h-full u-top-0 u-left-0 u-absolute u-z-0;
 
     content: '';
-    background: linear-gradient(90.14deg, #232C33 1.49%, rgba(35, 44, 51, 0.5) 55.75%, rgba(35, 44, 51, 0) 97.94%), url(.jpg);
+    // background: linear-gradient(90.14deg, #232C33 1.49%, rgba(35, 44, 51, 0.5) 55.75%, rgba(35, 44, 51, 0) 97.94%), url(.jpg);
+    background: linear-gradient(90deg, rgba(35,44,51,1) 0%, rgba(35,44,51,0.9570203081232493) 23%, rgba(35,44,51,0.8113620448179272) 42%, rgba(35,44,51,0.6685049019607843) 52%, rgba(35,44,51,0.5984768907563025) 61%, rgba(35,44,51,0.14469537815126055) 100%);
   }
 
 
@@ -55,13 +56,13 @@
 
     p{
       
-      @apply u-font-semibold u-text-50 u-tracking-widest u-font-heading ;
+      @apply u-font-semibold u-text-32 xs:u-text-40 sm:u-text-50 u-tracking-widest u-font-heading  ;
 
       line-height: 68px;
 
       &:nth-child(2){
 
-       @apply u-text-teal u-text-60 u-font-bold;
+       @apply u-text-teal u-text-36 xs:u-text-48 sm:u-text-60 u-font-bold;
 
       }
 

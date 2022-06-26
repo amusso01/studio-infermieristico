@@ -3,7 +3,7 @@
 /* ***** ----------------------------------------------- ***** */
 
 import Highway from '@dogstudio/highway';
-import { setActiveLink, updateBodyClasses, trackGA } from './components/highway.js';
+import { setActiveLink, updateBodyClasses, trackGA, closeMenu } from './components/highway.js';
 import Fade from './transitions/Fade'
 
 import { init as globalInit } from './components/global.js';
@@ -37,6 +37,7 @@ H.on('NAVIGATE_IN', ({to, location}) => {
   updateBodyClasses(to);
   s2r.reInit();
   richTextInit();
+  closeMenu();
 });
 
 // Executed when the page has loaded completely

@@ -18,11 +18,11 @@
  md:u-mt-130 md:u-mb-200 " >
 
   
-  <div class="c-map c-map_castelnuovo u-mb-180">
+  <div class="c-map c-map_castelnuovo u-mb-120 sm:u-mb-180">
     <h2 class=" u-tracking-widest u-text-center u-mb-85">
       Castelnuovo Magra
     </h2>
-    <div class="u-grid u-grid-cols-2 u-gap-x-90">
+    <div class="u-grid u-grid-cols-1 sm:u-grid-cols-2 u-gap-x-90 u-gap-y-45">
 
       <?php echo $castMap; ?>
 
@@ -62,7 +62,7 @@
     <h2 class=" u-tracking-widest u-text-center u-mb-85">
       La Spezia
     </h2>
-    <div class="u-grid u-grid-cols-2 u-gap-x-90">
+    <div class="u-grid u-grid-cols-1 sm:u-grid-cols-2  u-gap-x-90 u-gap-y-45">
 
       <?php echo $spMap; ?>
 

@@ -2,6 +2,8 @@
 ** ***** Highway JS
 ** ***** ----------------------------------------------- ***** */
 
+import AlpineInstance from "alpinejs";
+
 /* global gtag, gaId */
 
 // Set active link on newly loaded page
@@ -38,4 +40,20 @@ const trackGA = (to, location) => {
   });
 };
 
-export { setActiveLink, updateBodyClasses, trackGA };
+
+const closeMenu = ()=>{
+  let menu = document.querySelector('.o-nav--header')
+  let burger = document.querySelector('.u-c-hamburger')
+
+  if(menu.classList.contains('o-nav-s-open')){
+    menu.classList.remove('o-nav-s-open')
+  }
+
+  if(burger.classList.contains('u-active')){
+    burger.classList.remove('u-active')
+    AlpineInstance.store('openMenu').toggle()
+  }
+
+}
+
+export { setActiveLink, updateBodyClasses, trackGA, closeMenu };

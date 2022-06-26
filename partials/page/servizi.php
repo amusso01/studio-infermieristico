@@ -4,7 +4,7 @@ $servizi = get_field('servizi') ;
 
 <section class="p-servizi__content u-mt-60 u-mb-100 md:u-mt-130 md:u-mb-200" >
 
-  <h2 class=" u-text-38 u-font-normal u-tracking-wider u-max-w-[83rem] u-mb-100">
+  <h2 class="u-text-30 sm:u-text-38 u-font-normal u-tracking-wider u-max-w-[83rem] u-mb-100">
   Lo Studio Infermieristico Associato 
   effettua i seguenti servizi professionali
   </h2>
@@ -18,7 +18,7 @@ $servizi = get_field('servizi') ;
           @click="selected !== <?php echo $index ?> ? selected = <?php echo $index ?> : selected = null" 
           :class="selected == <?php echo $index ?> ? 's-active' : ''" >
 
-            <p class=" u-font-heading u-font-medium u-text-24 u-tracking-wide u-transition-all u-duration-slow"><?php echo $servizio['titolo'] ?></p>
+            <p class=" u-font-heading u-font-medium u-text-18 sm:u-text-24 u-tracking-wide u-transition-all u-duration-slow"><?php echo $servizio['titolo'] ?></p>
             <i class="u-w-20 u-h-20" x-cloak x-show="selected == <?php echo $index ?>" ><?php bml_the_svg('minus') ?></i> 
             <i class="u-w-20 u-h-20" x-cloak x-show="selected !== <?php echo $index ?>" ><?php bml_the_svg('plus') ?></i> 
 
@@ -36,8 +36,8 @@ $servizi = get_field('servizi') ;
     <?php endif; ?>
   </div>
 
-  <div class="o-svg-servizi-bg u-overflow-hidden  u-absolute -u-top-100 u-left-[85%]">
-    <?php bml_the_svg('servizi-bg', '0 0 470 420', 'u-w-[470px] ' ) ?>
+  <div class="o-svg-servizi-bg u-overflow-hidden u-z-below u-absolute -u-top-80 u-left-[80%] md:-u-top-100 md:u-left-[85%]">
+    <?php bml_the_svg('servizi-bg', '0 0 470 420', ' u-w-[320px] md:u-w-[470px] ' ) ?>
   </div>
 
 </section>

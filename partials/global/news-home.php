@@ -13,9 +13,9 @@ $the_query = new WP_Query( $args );
 
 <section class="p-home__servizi u-mb-100 md:u-mt-130 md:u-mb-200 " >
 
-  <h2 class="u-text-45 u-text-center u-tracking-wider u-mb-50 md:u-mb-80"  data-s2r="single" data-s2r-type="block-fade-up">News e Comunicati</h2>
+  <h2 class=" u-text-38 sm:u-text-45 u-text-center u-tracking-wider u-mb-50 md:u-mb-80"  data-s2r="single" data-s2r-type="block-fade-up">News e Comunicati</h2>
 
-  <div class="u-grid u-grid-cols-3 u-gap-y-40 u-gap-x-40 md:u-gap-x-80 u-mb-80"  data-s2r="single" data-s2r-type="block-fade-in">
+  <div class="u-grid u-grid-cols-1  sm:u-grid-cols-3 u-gap-y-40 u-gap-x-40 md:u-gap-x-80 u-mb-80"  data-s2r="single" data-s2r-type="block-fade-in">
 
     <?php if ( $the_query->have_posts() ) :  ?>
       <?php while ( $the_query->have_posts() ) : $the_query->the_post();  ?>

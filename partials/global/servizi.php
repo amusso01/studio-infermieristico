@@ -1,9 +1,9 @@
 
 <section class="p-home__servizi u-mb-100 md:u-mt-130 md:u-mb-200 "" >
 
-  <h2  data-s2r="single" data-s2r-type="block-fade-up" class="u-text-45 u-tracking-wider u-mb-50 md:u-mb-80">I Nostri Servizi</h2>
+  <h2  data-s2r="single" data-s2r-type="block-fade-up" class=" u-text-38 sm:u-text-45 u-tracking-wider u-mb-50 md:u-mb-80">I Nostri Servizi</h2>
 
-  <div  data-s2r="single" data-s2r-type="block-fade-in" class="u-grid u-grid-cols-3 u-gap-x-40 md-u-gap-x-80 u-gap-y-60 ">
+  <div  data-s2r="single" data-s2r-type="block-fade-in" class="u-grid u-grid-cols-1 xs:u-grid-cols-2 md:u-grid-cols-3 u-gap-x-40 md-u-gap-x-80 u-gap-y-60 ">
 
     <a href="<?php echo site_url( '/servizi' ) ?>">
       <div class="o-card-service " >
