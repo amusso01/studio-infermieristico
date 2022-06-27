@@ -4,7 +4,7 @@
       <div class="c-footer-left c-footer-item u-flex u-flex-col u-gap-y-55 ">
         <div class="c-footer-left__top">
           <div class=" u-border-1 u-border-teal u-rounded-tl-40 u-py-35 u-px-30 u-rounded-tr-5 u-rounded-br-40 u-rounded-bl-5">
-            <h3 class="o-h-footer u-text-17 sm:u-text-20">ORARI AMBULATORIALI</h3>
+            <h3 class="o-h-footer ">ORARI AMBULATORIALI</h3>
             <ul class=" u-space-y-15 ">
               <li class="u-flex u-justify-between">
                 <p class="o-hour-footer">Lunedì - Venerdì:</p>
@@ -29,7 +29,7 @@
         </div>
       </div>
       <div class="c-footer-center c-footer-item u-flex u-flex-col u-gap-y-55">
-        <div class="c-footer-center__top">
+        <div class="c-footer-center__top u-hidden">
           <p class="u-text-13 u-mb-15 u-leading-loose">Scarica la modulistica per le visite a domicilio e risparmia tempo</p>
           <a href="#" class="o-button o-button-white ">MODULISTICA <span> <i>
             
@@ -49,7 +49,10 @@
       </div>
       <div class="c-footer-right c-footer-item">
         <h3 class="o-h-footer">SEGUICI SU FACEBOOK</h3>
+        <div class="">
 
+        <?php echo do_shortcode( '[custom-facebook-feed feed=1]' ) ?>
+        </div>
       </div>
     </div>
   </div>

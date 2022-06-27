@@ -1,5 +1,7 @@
 <?php
 $rows = get_field('imagine_e_testo');
+
+$images = get_field('immagini_studio');
 ?>
 
 <section class="p-chi-siamo__content u-mt-60 u-mb-90 md:u-mt-130 md:u-mb-220" >
@@ -22,4 +24,18 @@ $rows = get_field('imagine_e_testo');
     <?php endforeach; ?>
   <?php endif; ?>
 
+
+  <div class="u-grid u-grid-cols-10 u-mt-50 u-gap-y-80">
+
+  <?php if ( $images ) : ?>
+    <?php foreach($images as $index => $row) : ?>
+      <figure  class=" u-self-center u-relative u-col-span-6 <?php if($index % 2 !== 0 ) : ?>u-col-start-5 <?php endif ?>" data-s2r="single" data-s2r-type="block-fade-in">
+        <img data-srcset="<?php echo bml_the_image_srcset($row['immagine']) ?>" data-sizes="auto" alt="Studio Associato Monsignori Francesco" class="lazyload ">
+      </figure>
+      <?php endforeach; ?>
+  <?php endif; ?>
+
+  </div>
+
 </section>
+
