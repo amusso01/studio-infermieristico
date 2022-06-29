@@ -8,9 +8,10 @@ $teams = get_field('teams') ;
  md:u-px-40
  md:u-mt-130 md:u-mb-200 " >
 
-  <h2 class=" u-tracking-widest u-text-center u-mb-85">
+  <h2 class=" u-tracking-widest u-text-center u-mb-25">
     I Nostri <span class="u-text-teal">Professionisti</span>
   </h2>
+  <p class=" u-font-heading u-text-22 u-tracking-wider  u-text-center u-mb-85">Tutti i nostri Infermieri sono in regola con le normative degli ordini professionali di riferimento</p>
 
   <div class="c-cards" >
     <?php if ( $teams) : ?>
