@@ -5,13 +5,21 @@
         <div class="c-footer-left__top">
           <div class=" u-border-1 u-border-teal u-rounded-tl-40 u-py-35 u-px-30 u-rounded-tr-5 u-rounded-br-40 u-rounded-bl-5">
             <h3 class="o-h-footer ">ORARI AMBULATORIALI</h3>
-            <ul class=" u-space-y-15 ">
+            <h5 class="u-font-semibold u-mb-8 ">Castelnuovo Magra</h5>
+            <ul class=" u-space-y-10  u-mb-15">
               <li class="u-flex u-justify-between">
                 <p class="o-hour-footer">Lunedì - Venerdì:</p>
                 <p class="o-hour-footer">7.00 - 13.00 | 15.30 - 18.30</p>
               </li>
               <li class="u-flex u-justify-between">
                 <p class="o-hour-footer">Sabato:</p>
+                <p class="o-hour-footer">7.00 - 13.00</p>
+              </li>
+            </ul>
+            <h5 class="u-font-semibold u-mb-8 ">La Spezia</h5>
+            <ul class=" u-space-y-10 ">
+              <li class="u-flex u-justify-between">
+                <p class="o-hour-footer">Lunedì - Sabato:</p>
                 <p class="o-hour-footer">7.00 - 13.00</p>
               </li>
             </ul>
@@ -23,7 +31,7 @@
           <ul class=" u-space-y-10">
             <li class="c-contact-footer" ><span><?php bml_the_svg('icon-phone', '0 0 17 17', 'u-w-17 u-h-17 u-inline-block u-mr-25 ') ?></span><a href="tel:+39 0187 1864906">+39 0187 1864906</a></li>
             <li class="c-contact-footer" ><span><?php bml_the_svg('icon-phone', '0 0 17 17', 'u-w-17 u-h-17 u-inline-block u-mr-25 ') ?></span><a href="tel:+39 366 4239850">+39 366 4239850</a></li>
-            <li class="c-contact-footer" ><span><?php bml_the_svg('icon-map', '0 0 17 17', 'u-w-17 u-h-17 u-inline-block u-mr-25 ') ?></span><a href="https://goo.gl/maps/VpM9CcBTNv3dtviz5" rel=”noreferrer noopener”  target="_blank" >Via Aurelia 160 - Castelnuovo Magra</a></li>
+            <li class="c-contact-footer" ><span><?php bml_the_svg('icon-map', '0 0 17 17', 'u-w-17 u-h-17 u-inline-block u-mr-25 ') ?></span><a href="https://goo.gl/maps/VpM9CcBTNv3dtviz5" rel=”noreferrer noopener”  target="_blank" >Via Aurelia 160 - Castelnuovo Magra, 19033 (SP)</a></li>
             <li class="c-contact-footer" ><span><?php bml_the_svg('icon-email', '0 0 17 17', 'u-w-17 u-h-17 u-inline-block u-mr-25 ') ?></span><a href="mailto:monsignorifrancesco@hotmail.it" >monsignorifrancesco@hotmail.it</a></li>
           </ul>
         </div>

@@ -31,8 +31,8 @@ $homeIntroCit = get_field('citazione');
     <cite  class="u-flex u-justify-end u-text-20 u-font-semibold "><?php echo $homeIntroCit['autore'] ?></cite>
 
 
-    <div class="o-svg-cite-bg u-overflow-hidden u-z-below u-opacity-70 u-absolute u-top-0 -u-right-70 sm:u-inline-block"  data-s2r="single" data-s2r-type="block-fade-up" data-s2r-duration="1.8">
-    <?php bml_the_svg('cite', '0 0 370 320', 'u-w-[270px] ' ) ?>
+    <div class="o-svg-cite-bg u-overflow-hidden u-z-below u-opacity-70 u-absolute u-top-0 u-right-0 sm:-u-right-70 sm:u-inline-block"  data-s2r="single" data-s2r-type="block-fade-up" data-s2r-duration="1.8">
+    <?php bml_the_svg('cite', '0 0 370 320', 'u-w-[270px]' ) ?>
     </div>
 
   </div>

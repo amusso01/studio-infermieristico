@@ -23,7 +23,7 @@
   }
 
   h1{
-    @apply u-text-white u-uppercase md:u-max-w-3xl;
+    @apply u-text-white u-uppercase u-text-32 sm:u-text-40 md:u-text-45 md:u-max-w-3xl;
 
   }
 }
@@ -56,13 +56,11 @@
 
     p{
       
-      @apply u-font-semibold u-text-32 xs:u-text-40 sm:u-text-50 u-tracking-widest u-font-heading  ;
-
-      line-height: 68px;
+      @apply u-font-semibold u-text-28 xs:u-text-40 sm:u-text-50 sm:u-leading-loose u-tracking-widest u-font-heading  ;
 
       &:nth-child(2){
 
-       @apply u-text-teal u-text-36 xs:u-text-48 sm:u-text-60 u-font-bold;
+       @apply u-text-teal u-text-32 xs:u-text-48 sm:u-text-60 u-font-bold;
 
       }
 
