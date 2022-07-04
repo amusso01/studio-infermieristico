@@ -36,8 +36,8 @@ $servizi = get_field('servizi') ;
     <?php endif; ?>
   </div>
 
-  <div class="o-svg-servizi-bg u-overflow-hidden u-z-below u-absolute -u-top-80 u-left-[80%] md:-u-top-100 md:u-left-[85%]">
-    <?php bml_the_svg('servizi-bg', '0 0 470 420', ' u-w-[320px] md:u-w-[470px] ' ) ?>
+  <div class="o-svg-servizi-bg u-overflow-hidden u-z-below u-absolute u-top-20 u-left-[40%] md:-u-top-100 md:u-left-[85%]">
+    <?php bml_the_svg('servizi-bg', '0 0 470 420', ' u-w-[120px] md:u-w-[470px] ' ) ?>
   </div>
 
 </section>

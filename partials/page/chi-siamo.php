@@ -25,13 +25,15 @@ $images = get_field('immagini_studio');
   <?php endif; ?>
 
 
-  <div class="u-grid u-grid-cols-10 u-mt-50 u-gap-y-80">
+  <div class="u-grid u-grid-cols-10 u-gap-x-20 u-gap-y-20 sm:u-gap-x-25 u-mt-50 sm:u-gap-y-80 lightBox">
 
   <?php if ( $images ) : ?>
     <?php foreach($images as $index => $row) : ?>
-      <figure  class=" u-self-center u-relative u-col-span-6 <?php if($index % 2 !== 0 ) : ?>u-col-start-5 <?php endif ?>" data-s2r="single" data-s2r-type="block-fade-in">
-        <img data-srcset="<?php echo bml_the_image_srcset($row['immagine']) ?>" data-sizes="auto" alt="Studio Associato Monsignori Francesco" class="lazyload ">
-      </figure>
+      <a href="<?php echo wp_get_attachment_image_url($row['immagine'], 'full') ?>" data-router-disabled class="glightbox u-col-span-5 >
+        <figure  class=" u-self-center u-relative " data-s2r="single" data-s2r-type="block-fade-in">
+          <img data-srcset="<?php echo bml_the_image_srcset($row['immagine']) ?>" data-sizes="auto" alt="Studio Associato Monsignori Francesco" class="lazyload ">
+        </figure>
+      </a>
       <?php endforeach; ?>
   <?php endif; ?>
 

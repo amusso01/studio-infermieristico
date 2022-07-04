@@ -1,7 +1,7 @@
 <?php if ( has_post_thumbnail() ) : ?>
   <div class="u-col-span-10 sm:u-col-span-4 ">
     <div class="sm:u-sticky sm:u-top-55">
-      <figure class=" u-h-[313px] u-w-[401px] u-relative" data-s2r-el>
+      <figure class=" u-h-[425px] u-w-[322px] u-relative" data-s2r-el>
         <img data-srcset="<?php bml_the_image_srcset( get_post_thumbnail_id() ); ?>" data-sizes="auto" class="u-w-full lazyload i-cover" alt="<?php echo get_post_meta( get_post_thumbnail_id(), '_wp_attachment_image_alt', true ); ?>" title="<?php echo get_the_title( get_post_thumbnail_id() ); ?>">
       </figure>
       <?php if(get_field('scritto_da')) : ?>

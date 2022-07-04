@@ -1,7 +1,11 @@
 <?php get_header(); ?>
 
 <div data-router-wrapper>
+  <?php if(is_page( 'chi-siamo' ) || is_page(27)) : ?>
+  <div data-router-view="chiSiamo">
+  <?php else:  ?>
   <div data-router-view="page">
+  <?php endif ?>
     <main class="p-page-main" role="main">
 
       <?php while ( have_posts() ) : the_post(); ?>

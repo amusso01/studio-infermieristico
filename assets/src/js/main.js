@@ -5,6 +5,8 @@
 import Highway from '@dogstudio/highway';
 import { setActiveLink, updateBodyClasses, trackGA, closeMenu } from './components/highway.js';
 import Fade from './transitions/Fade'
+// import { ChiSiamoRenderer } from './components/renderer.js';
+import SimpleLightbox from "simplelightbox";
 
 import { init as globalInit } from './components/global.js';
 import { init as richTextInit } from './components/richText.js';
@@ -20,7 +22,10 @@ const s2r = new Scroll2Reveal();
 const H = new Highway.Core({
   transitions: {
     default: Fade
-  }
+  },
+  // renderers: {
+  //   chiSiamo: ChiSiamoRenderer
+  // }
 });
 
 // When user is logged into WordPress, update admin bar content on page load
@@ -38,6 +43,7 @@ H.on('NAVIGATE_IN', ({to, location}) => {
   s2r.reInit();
   richTextInit();
   closeMenu();
+
 });
 
 // Executed when the page has loaded completely
@@ -54,6 +60,6 @@ H.on('NAVIGATE_END', ({to, location}) => {
     const adminBarLinks = document.querySelectorAll('#wpadminbar a');
     H.detach(adminBarLinks);
   }
-
+  new SimpleLightbox('.lightBox .glightbox' , {})
   trackGA(to, location);
 });
