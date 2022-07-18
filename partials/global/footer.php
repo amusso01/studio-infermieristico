@@ -64,7 +64,8 @@
       </div>
     </div>
   </div>
-  <div class="C-footer-copyright u-border-t-1 u-border-t-white">
+  <div class="C-footer-copyright u-border-t-1 u-border-t-white u-flex u-flex-col md:u-flex-row u-justify-between">
     <p class="  u-pb-10 u-pt-10  l-container u-text-12"><?php printf( '%1$s %2$s %3$s', '&copy;', date( 'Y' ), get_bloginfo() ); ?></p>
+    <p class="  u-pb-10 md:u-pt-10  l-container u-text-12 md:u-text-right" >Developed & Designed by <a href="mailto:musso.a@icloud.com">Andrea Musso</a></p>
   </div>
 </footer>

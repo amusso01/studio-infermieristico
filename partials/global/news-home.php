@@ -11,7 +11,7 @@ $the_query = new WP_Query( $args );
 ?>
 
 
-<section class="p-home__servizi u-mb-100 md:u-mt-130 md:u-mb-200 u-hidden" >
+<section class="p-home__servizi u-mb-100 md:u-mt-130 md:u-mb-200" >
 
   <h2 class=" u-text-38 sm:u-text-45 u-text-center u-tracking-wider u-mb-50 md:u-mb-80"  data-s2r="single" data-s2r-type="block-fade-up">News e Comunicati</h2>
 

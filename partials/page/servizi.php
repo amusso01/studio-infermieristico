@@ -28,7 +28,8 @@ $servizi = get_field('servizi') ;
           :style="selected == <?php echo $index ?> ? 'max-height: ' + $refs.tab<?php echo $index ?>.scrollHeight + 'px; border-top: 1px solid #232C33' : '' "  >
 
               <p class="u-px-25 u-pt-30 u-mb-20 u-tracking-wider">Durata: <?php echo $servizio['durata'] ?></p>
-              <p class="u-px-25 u-pb-50 u-uppercase u-tracking-wide u-text-18 u-leading-medium"><?php echo $servizio['contenuto'] ?></p>
+              <p class="u-px-25 u-pb-30 u-mb-15 u-uppercase u-tracking-wide u-text-18 u-leading-medium"><?php echo $servizio['contenuto'] ?></p>
+              <p class="u-px-25 u-pb-50 u-uppercase u-font-semibold">Per appuntamenti  <a href="tel:+39 366 4239850">+39 366 4239850 </a></p>
 
           </div>
         </div>

@@ -17,7 +17,7 @@ $homeIntroCit = get_field('citazione');
       <a href="<?php echo site_url('/chi-siamo') ?>" class="o-button  o-button-icon">LEGGI DI PIÙ <span><i><?php bml_the_svg('icon-carret', '0 0 12 12', 'u-w-12 u-h-12  u-inline-block u-ml-10') ?></i></span></a>
     </div>
 
-    <figure  class=" u-self-center u-relative u-w-[366px] u-h-[380px] sm:u-min-w-[466px] sm:u-w-[466px] sm:u-h-[480px]" data-s2r="single" data-s2r-type="block-fade-in">
+    <figure  class=" u-self-center u-relative u-mt-35 md:u-mt-10 u-w-[366px] u-h-[380px] sm:u-min-w-[466px] sm:u-w-[466px] sm:u-h-[480px]" data-s2r="single" data-s2r-type="block-fade-in">
       <img data-srcset="<?php echo bml_the_image_srcset($homeIntroImage) ?>" data-sizes="auto" alt="Studio infermieristico Monsignori Francesco" class="lazyload i-cover">
     </figure>
   </div>

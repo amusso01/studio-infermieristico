@@ -33,7 +33,7 @@
   <?php endif; ?>
 
   <div class="u-flex u-flex-col sm:u-flex-row u-gap-y-25 u-justify-between">
-    <div class="u-border-1 u-border-solid u-min-h-[45px] u-self-start u-border-black-text-2 u-inline-flex u-gap-x-17 u-items-center u-py-9 u-px-17 u-shadow-md u-rounded-3">
+    <div class="u-border-1 u-border-solid u-min-h-[45px] u-mb-20 sm:u-mb-0 u-self-start u-border-black-text-2 u-inline-flex u-gap-x-17 u-items-center u-py-9 u-px-17 u-shadow-md u-rounded-3">
       <div class="u-w-[32px] u-h-[32px] u-flex u-justify-center u-items-center u-border-1 u-border-solid u-border-teal u-rounded-full ">
        <i title="SHARE"><?php bml_the_svg('icon-share', '0 0 17 17', 'u-w-17 u-h-15 u-inline-block') ?></i>
       </div>
